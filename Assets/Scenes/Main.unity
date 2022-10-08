@@ -5846,7 +5846,7 @@ GameObject:
   - component: {fileID: 1907360591}
   - component: {fileID: 1907360590}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Move Cameras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
