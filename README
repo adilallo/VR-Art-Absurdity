@@ -5,6 +5,13 @@ Team: Frank Chytil, Andy DiLallo, Mackenzie Elmhirst, Abe Tadesse
 
 Unity Version: 2021.3.9f1
 
-The goal for this milestone was to set up the basic framework for our experience. We are still clarifying the overall vision of our reflective art app. To start, we created a virtual gallery space where each member of the team uploaded images created by DALL E. We're using the AI text to images as placeholders for curated "rooms" each person will eventually create. The plan is to implement our app on the Oculus Quest. The Oculus SDK and XR Utilities have been imported and set up for testing on the Quest. We created a monocular and binocular camera for the purpose of this milestone, but plan to use the Oculus prefab camera. Spatial audio is also in the experience for now using audio that's been processed and converted by Holly Herndon's Holly + web application. Essentially any audio dropped into her system is translated into the sound of a synthesized version of her voice.
+The goal for this milestone was to set up the basic framework for our experience. We are still clarifying the overall vision of our reflective art app.
+To start, we created a virtual gallery space where each member of the team uploaded images created by DALL E. We're using the AI text to images as placeholders
+for curated "rooms" each person will eventually create. The plan is to implement our app on the Oculus Quest. The Oculus SDK and XR Utilities have been imported
+and set up for testing on the Quest. We created a monocular and binocular camera for the purposes of this milestone, but plan to use the Oculus prefab camera for
+the finished project. This substitution prevented us from porting this to the quest for this Milestone. Spatial audio is also in the experience for now,
+using audio that's been processed and converted by Holly Herndon's Holly + web application. Essentially any audio dropped into her system is translated into the
+sound of a synthesized version of her voice.
 
-Again, with all of this we are building out a foundation for the project and letting the conceptual framework emerge as we continue to work on it collectively.
+Again, this milestone is an effort toward building out a foundation for the project and letting the conceptual framework emerge as we continue to work on it collectively. Specific
+aesthetic choices, and larger design choices like the layout of the art gallery, are subject to change over the coourse of development.
