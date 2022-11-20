@@ -4759,44 +4759,44 @@ struct OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B  : public RuntimeObje
 
 struct OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields
 {
-	// System.Version OVRPlugin::wrapperVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___wrapperVersion_1;
-	// System.Version OVRPlugin::_version
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____version_2;
-	// System.Version OVRPlugin::_nativeSDKVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____nativeSDKVersion_3;
-	// System.Int32 OVRPlugin::MAX_CPU_CORES
-	int32_t ___MAX_CPU_CORES_4;
-	// System.Nullable`1<OVRPlugin/XrApi> OVRPlugin::_nativeXrApi
-	Nullable_1_tC438FE0466EF1565EE278C732EE7C3053C1053C4 ____nativeXrApi_12;
-	// OVRPlugin/GUID OVRPlugin::_nativeAudioOutGuid
-	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioOutGuid_13;
-	// System.Guid OVRPlugin::_cachedAudioOutGuid
-	Guid_t ____cachedAudioOutGuid_14;
-	// System.String OVRPlugin::_cachedAudioOutString
-	String_t* ____cachedAudioOutString_15;
-	// OVRPlugin/GUID OVRPlugin::_nativeAudioInGuid
-	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioInGuid_16;
-	// System.Guid OVRPlugin::_cachedAudioInGuid
-	Guid_t ____cachedAudioInGuid_17;
-	// System.String OVRPlugin::_cachedAudioInString
-	String_t* ____cachedAudioInString_18;
-	// System.Boolean OVRPlugin::perfStatWarningPrinted
-	bool ___perfStatWarningPrinted_19;
-	// System.Boolean OVRPlugin::resetPerfStatWarningPrinted
-	bool ___resetPerfStatWarningPrinted_20;
-	// OVRNativeBuffer OVRPlugin::_nativeSystemDisplayFrequenciesAvailable
-	OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* ____nativeSystemDisplayFrequenciesAvailable_21;
-	// System.Single[] OVRPlugin::_cachedSystemDisplayFrequenciesAvailable
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____cachedSystemDisplayFrequenciesAvailable_22;
-	// OVRPlugin/HandStateInternal OVRPlugin::cachedHandState
-	HandStateInternal_tADD472E69CDB0B051EFD5EAAFB69D16BA364BE37 ___cachedHandState_23;
-	// OVRPlugin/Skeleton OVRPlugin::cachedSkeleton
-	Skeleton_tB4F8C22D03DF1FD94CF2389561489C573C84FF0E ___cachedSkeleton_24;
-	// OVRPlugin/Skeleton2Internal OVRPlugin::cachedSkeleton2
-	Skeleton2Internal_tF8531C814EC7E128C6EE97A4547497AE2042E432 ___cachedSkeleton2_25;
 	// System.Version OVRPlugin::_versionZero
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____versionZero_27;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____versionZero_1;
+	// System.Version OVRPlugin::wrapperVersion
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___wrapperVersion_3;
+	// System.Version OVRPlugin::_version
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____version_4;
+	// System.Version OVRPlugin::_nativeSDKVersion
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____nativeSDKVersion_5;
+	// System.Int32 OVRPlugin::MAX_CPU_CORES
+	int32_t ___MAX_CPU_CORES_6;
+	// System.Nullable`1<OVRPlugin/XrApi> OVRPlugin::_nativeXrApi
+	Nullable_1_tC438FE0466EF1565EE278C732EE7C3053C1053C4 ____nativeXrApi_14;
+	// OVRPlugin/GUID OVRPlugin::_nativeAudioOutGuid
+	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioOutGuid_15;
+	// System.Guid OVRPlugin::_cachedAudioOutGuid
+	Guid_t ____cachedAudioOutGuid_16;
+	// System.String OVRPlugin::_cachedAudioOutString
+	String_t* ____cachedAudioOutString_17;
+	// OVRPlugin/GUID OVRPlugin::_nativeAudioInGuid
+	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioInGuid_18;
+	// System.Guid OVRPlugin::_cachedAudioInGuid
+	Guid_t ____cachedAudioInGuid_19;
+	// System.String OVRPlugin::_cachedAudioInString
+	String_t* ____cachedAudioInString_20;
+	// System.Boolean OVRPlugin::perfStatWarningPrinted
+	bool ___perfStatWarningPrinted_21;
+	// System.Boolean OVRPlugin::resetPerfStatWarningPrinted
+	bool ___resetPerfStatWarningPrinted_22;
+	// OVRNativeBuffer OVRPlugin::_nativeSystemDisplayFrequenciesAvailable
+	OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* ____nativeSystemDisplayFrequenciesAvailable_23;
+	// System.Single[] OVRPlugin::_cachedSystemDisplayFrequenciesAvailable
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____cachedSystemDisplayFrequenciesAvailable_24;
+	// OVRPlugin/HandStateInternal OVRPlugin::cachedHandState
+	HandStateInternal_tADD472E69CDB0B051EFD5EAAFB69D16BA364BE37 ___cachedHandState_25;
+	// OVRPlugin/Skeleton OVRPlugin::cachedSkeleton
+	Skeleton_tB4F8C22D03DF1FD94CF2389561489C573C84FF0E ___cachedSkeleton_26;
+	// OVRPlugin/Skeleton2Internal OVRPlugin::cachedSkeleton2
+	Skeleton2Internal_tF8531C814EC7E128C6EE97A4547497AE2042E432 ___cachedSkeleton2_27;
 };
 
 // System.PlatformNotSupportedException
@@ -20561,7 +20561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 	{
 		// if (_version == null)
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4;
 		bool L_1;
 		L_1 = Version_op_Equality_mED378603AE784D5ACEDB8F4B250F50773B331D4B(L_0, (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)NULL, NULL);
 		V_0 = L_1;
@@ -20606,8 +20606,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 			NullCheck(L_11);
 			Version__ctor_m52D06833AE6481C0A9B72085BDC4D09A723CEF7F(L_11, L_10, NULL);
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2 = L_11;
-			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2), (void*)L_11);
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4 = L_11;
+			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4), (void*)L_11);
 			goto IL_004a_1;
 		}
 
@@ -20615,9 +20615,9 @@ IL_003e_1:
 		{
 			// _version = _versionZero;
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_12 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_27;
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2 = L_12;
-			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2), (void*)L_12);
+			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_12 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_1;
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4 = L_12;
+			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4), (void*)L_12);
 		}
 
 IL_004a_1:
@@ -20640,9 +20640,9 @@ CATCH_004d:
 		// catch
 		// _version = _versionZero;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var)));
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_13 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____versionZero_27;
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____version_2 = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____version_2), (void*)L_13);
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_13 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____versionZero_1;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____version_4 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____version_4), (void*)L_13);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_005c;
 	}// end catch (depth: 1)
@@ -20651,7 +20651,7 @@ IL_005c:
 	{
 		// if (_version == OVRP_0_5_0.version)
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_14 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_14 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4;
 		il2cpp_codegen_runtime_class_init_inline(OVRP_0_5_0_t970B83CBCEF44078F664BA16357F633754A71FF3_il2cpp_TypeInfo_var);
 		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_15 = ((OVRP_0_5_0_t970B83CBCEF44078F664BA16357F633754A71FF3_StaticFields*)il2cpp_codegen_static_fields_for(OVRP_0_5_0_t970B83CBCEF44078F664BA16357F633754A71FF3_il2cpp_TypeInfo_var))->___version_0;
 		bool L_16;
@@ -20668,16 +20668,16 @@ IL_005c:
 		il2cpp_codegen_runtime_class_init_inline(OVRP_0_1_0_t750DFB7AF9D575E9CDDB37F87A2393C7D3E3B815_il2cpp_TypeInfo_var);
 		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_18 = ((OVRP_0_1_0_t750DFB7AF9D575E9CDDB37F87A2393C7D3E3B815_StaticFields*)il2cpp_codegen_static_fields_for(OVRP_0_1_0_t750DFB7AF9D575E9CDDB37F87A2393C7D3E3B815_il2cpp_TypeInfo_var))->___version_0;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2 = L_18;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2), (void*)L_18);
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4 = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4), (void*)L_18);
 	}
 
 IL_0079:
 	{
 		// if (_version > _versionZero && _version < OVRP_1_3_0.version)
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_19 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2;
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_20 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_27;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_19 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_20 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_1;
 		bool L_21;
 		L_21 = Version_op_GreaterThan_m82174057E818F77CD26D72F612C47C7516BA7431(L_19, L_20, NULL);
 		if (!L_21)
@@ -20687,7 +20687,7 @@ IL_0079:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_22 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_22 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4;
 		il2cpp_codegen_runtime_class_init_inline(OVRP_1_3_0_t5F3650C6BBFDD260AA10404172019B84B95E1813_il2cpp_TypeInfo_var);
 		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_23 = ((OVRP_1_3_0_t5F3650C6BBFDD260AA10404172019B84B95E1813_StaticFields*)il2cpp_codegen_static_fields_for(OVRP_1_3_0_t5F3650C6BBFDD260AA10404172019B84B95E1813_il2cpp_TypeInfo_var))->___version_0;
 		bool L_24;
@@ -20719,7 +20719,7 @@ IL_009c:
 		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0B22908A45168A6E9DE7CD887FDF0C6D6D458AE2)));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = L_27;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var)));
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_29 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->___wrapperVersion_1;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_29 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->___wrapperVersion_3;
 		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_30 = L_29;
 		G_B14_0 = L_30;
 		G_B14_1 = 1;
@@ -20764,7 +20764,7 @@ IL_00c3:
 		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEE6241B460A68DF5828B44B7759DA9A3B4CDA13B)));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_33 = L_32;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var)));
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_34 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____version_2;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_34 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____version_4;
 		NullCheck(L_34);
 		String_t* L_35;
 		L_35 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_34);
@@ -20791,7 +20791,7 @@ IL_00ed:
 	{
 		// return _version;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_39 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_2;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_39 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____version_4;
 		V_5 = L_39;
 		goto IL_00f6;
 	}
@@ -20824,7 +20824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 	{
 		// if (_nativeSDKVersion == null)
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_3;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_5;
 		bool L_1;
 		L_1 = Version_op_Equality_mED378603AE784D5ACEDB8F4B250F50773B331D4B(L_0, (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)NULL, NULL);
 		V_0 = L_1;
@@ -20870,7 +20870,7 @@ IL_0033_1:
 		{
 			// sdkVersion = _versionZero.ToString();
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_9 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_27;
+			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_9 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_1;
 			NullCheck(L_9);
 			String_t* L_10;
 			L_10 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_9);
@@ -20904,8 +20904,8 @@ IL_003e_1:
 			NullCheck(L_18);
 			Version__ctor_m52D06833AE6481C0A9B72085BDC4D09A723CEF7F(L_18, L_17, NULL);
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_3 = L_18;
-			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_3), (void*)L_18);
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_5 = L_18;
+			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_5), (void*)L_18);
 			goto IL_006d_1;
 		}
 
@@ -20913,9 +20913,9 @@ IL_0061_1:
 		{
 			// _nativeSDKVersion = _versionZero;
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_19 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_27;
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_3 = L_19;
-			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_3), (void*)L_19);
+			Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_19 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_1;
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_5 = L_19;
+			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_5), (void*)L_19);
 		}
 
 IL_006d_1:
@@ -20938,9 +20938,9 @@ CATCH_0070:
 		// catch
 		// _nativeSDKVersion = _versionZero;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var)));
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_20 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____versionZero_27;
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____nativeSDKVersion_3 = L_20;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____nativeSDKVersion_3), (void*)L_20);
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_20 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____versionZero_1;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____nativeSDKVersion_5 = L_20;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))))->____nativeSDKVersion_5), (void*)L_20);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_007f;
 	}// end catch (depth: 1)
@@ -20953,7 +20953,7 @@ IL_0080:
 	{
 		// return _nativeSDKVersion;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_21 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_3;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_21 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSDKVersion_5;
 		V_4 = L_21;
 		goto IL_0089;
 	}
@@ -21076,7 +21076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRPlugin_get_nativeXrApi_m3263433802
 		// if (!_nativeXrApi.HasValue)
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		bool L_0;
-		L_0 = Nullable_1_get_HasValue_m19860D1D578726F0D3A78F86BCFD72F253172E58_inline((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_12), Nullable_1_get_HasValue_m19860D1D578726F0D3A78F86BCFD72F253172E58_RuntimeMethod_var);
+		L_0 = Nullable_1_get_HasValue_m19860D1D578726F0D3A78F86BCFD72F253172E58_inline((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_14), Nullable_1_get_HasValue_m19860D1D578726F0D3A78F86BCFD72F253172E58_RuntimeMethod_var);
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -21090,7 +21090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRPlugin_get_nativeXrApi_m3263433802
 		memset((&L_2), 0, sizeof(L_2));
 		Nullable_1__ctor_mFD400149987A40943E1D0DDF9BEC12D4AD11B8A0((&L_2), 0, /*hidden argument*/Nullable_1__ctor_mFD400149987A40943E1D0DDF9BEC12D4AD11B8A0_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_12 = L_2;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_14 = L_2;
 		// if (version >= OVRP_1_55_0.version)
 		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_3;
 		L_3 = OVRPlugin_get_version_mF6424FE1E91DF97DE08CD5C7AE1FBC60873A354E(NULL);
@@ -21124,7 +21124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRPlugin_get_nativeXrApi_m3263433802
 		memset((&L_10), 0, sizeof(L_10));
 		Nullable_1__ctor_mFD400149987A40943E1D0DDF9BEC12D4AD11B8A0((&L_10), L_9, /*hidden argument*/Nullable_1__ctor_mFD400149987A40943E1D0DDF9BEC12D4AD11B8A0_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_12 = L_10;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_14 = L_10;
 	}
 
 IL_004d:
@@ -21140,7 +21140,7 @@ IL_004f:
 		// return _nativeXrApi.Value;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		int32_t L_11;
-		L_11 = Nullable_1_get_Value_mBED33A0D2722B660049367DE092774B6CAC902DC((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_12), Nullable_1_get_Value_mBED33A0D2722B660049367DE092774B6CAC902DC_RuntimeMethod_var);
+		L_11 = Nullable_1_get_Value_mBED33A0D2722B660049367DE092774B6CAC902DC((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_14), Nullable_1_get_Value_mBED33A0D2722B660049367DE092774B6CAC902DC_RuntimeMethod_var);
 		V_4 = L_11;
 		goto IL_005d;
 	}
@@ -22153,7 +22153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRPlugin_get_audioOutId_m5D5085CAA
 		{
 			// if (_nativeAudioOutGuid == null)
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			V_1 = (bool)((((RuntimeObject*)(GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 			bool L_1 = V_1;
 			if (!L_1)
@@ -22167,8 +22167,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRPlugin_get_audioOutId_m5D5085CAA
 			NullCheck(L_2);
 			GUID__ctor_mE86A653F57E2611E4C38C623AAE82CF5507CA592(L_2, NULL);
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13 = L_2;
-			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13), (void*)L_2);
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15 = L_2;
+			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15), (void*)L_2);
 		}
 
 IL_0018_1:
@@ -22194,7 +22194,7 @@ IL_0018_1:
 			// Marshal.PtrToStructure(ptr, _nativeAudioOutGuid);
 			intptr_t L_8 = V_0;
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_9 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_9 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 			Marshal_PtrToStructure_TisGUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7_m3430EEB1632070DA66D431F65396EA8B1F157D73(L_8, L_9, Marshal_PtrToStructure_TisGUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7_m3430EEB1632070DA66D431F65396EA8B1F157D73_RuntimeMethod_var);
 			// Guid managedGuid = new Guid(
@@ -22209,43 +22209,43 @@ IL_0018_1:
 			//     _nativeAudioOutGuid.d5,
 			//     _nativeAudioOutGuid.d6,
 			//     _nativeAudioOutGuid.d7);
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_10 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_10 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_10);
 			int32_t L_11 = L_10->___a_0;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_12 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_12 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_12);
 			int16_t L_13 = L_12->___b_1;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_14 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_14 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_14);
 			int16_t L_15 = L_14->___c_2;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_16 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_16 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_16);
 			uint8_t L_17 = L_16->___d0_3;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_18 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_18 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_18);
 			uint8_t L_19 = L_18->___d1_4;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_20 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_20 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_20);
 			uint8_t L_21 = L_20->___d2_5;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_22 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_22 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_22);
 			uint8_t L_23 = L_22->___d3_6;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_24 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_24 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_24);
 			uint8_t L_25 = L_24->___d4_7;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_26 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_26 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_26);
 			uint8_t L_27 = L_26->___d5_8;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_28 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_28 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_28);
 			uint8_t L_29 = L_28->___d6_9;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_30 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_30 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15;
 			NullCheck(L_30);
 			uint8_t L_31 = L_30->___d7_10;
 			Guid__ctor_mC52E0191E06C110F9F6E0A417BCA4437D79CC130((&V_3), L_11, L_13, L_15, L_17, L_19, L_21, L_23, L_25, L_27, L_29, L_31, NULL);
 			// if (managedGuid != _cachedAudioOutGuid)
 			Guid_t L_32 = V_3;
-			Guid_t L_33 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutGuid_14;
+			Guid_t L_33 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutGuid_16;
 			bool L_34;
 			L_34 = Guid_op_Inequality_mAA2FAB73FCD2CB2D2128ECF7016AC16AFBDF6163(L_32, L_33, NULL);
 			V_4 = L_34;
@@ -22259,19 +22259,19 @@ IL_0018_1:
 			// _cachedAudioOutGuid = managedGuid;
 			Guid_t L_36 = V_3;
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutGuid_14 = L_36;
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutGuid_16 = L_36;
 			// _cachedAudioOutString = _cachedAudioOutGuid.ToString();
 			String_t* L_37;
-			L_37 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutGuid_14), NULL);
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutString_15 = L_37;
-			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutString_15), (void*)L_37);
+			L_37 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutGuid_16), NULL);
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutString_17 = L_37;
+			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutString_17), (void*)L_37);
 		}
 
 IL_00e0_1:
 		{
 			// return _cachedAudioOutString;
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			String_t* L_38 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutString_15;
+			String_t* L_38 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioOutString_17;
 			V_5 = L_38;
 			goto IL_00fa;
 		}
@@ -22344,7 +22344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRPlugin_get_audioInId_m69899C3CA9
 		{
 			// if (_nativeAudioInGuid == null)
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			V_1 = (bool)((((RuntimeObject*)(GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 			bool L_1 = V_1;
 			if (!L_1)
@@ -22358,8 +22358,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OVRPlugin_get_audioInId_m69899C3CA9
 			NullCheck(L_2);
 			GUID__ctor_mE86A653F57E2611E4C38C623AAE82CF5507CA592(L_2, NULL);
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16 = L_2;
-			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16), (void*)L_2);
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18 = L_2;
+			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18), (void*)L_2);
 		}
 
 IL_0018_1:
@@ -22385,7 +22385,7 @@ IL_0018_1:
 			// Marshal.PtrToStructure(ptr, _nativeAudioInGuid);
 			intptr_t L_8 = V_0;
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_9 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_9 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 			Marshal_PtrToStructure_TisGUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7_m3430EEB1632070DA66D431F65396EA8B1F157D73(L_8, L_9, Marshal_PtrToStructure_TisGUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7_m3430EEB1632070DA66D431F65396EA8B1F157D73_RuntimeMethod_var);
 			// Guid managedGuid = new Guid(
@@ -22400,43 +22400,43 @@ IL_0018_1:
 			//     _nativeAudioInGuid.d5,
 			//     _nativeAudioInGuid.d6,
 			//     _nativeAudioInGuid.d7);
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_10 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_10 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_10);
 			int32_t L_11 = L_10->___a_0;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_12 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_12 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_12);
 			int16_t L_13 = L_12->___b_1;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_14 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_14 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_14);
 			int16_t L_15 = L_14->___c_2;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_16 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_16 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_16);
 			uint8_t L_17 = L_16->___d0_3;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_18 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_18 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_18);
 			uint8_t L_19 = L_18->___d1_4;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_20 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_20 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_20);
 			uint8_t L_21 = L_20->___d2_5;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_22 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_22 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_22);
 			uint8_t L_23 = L_22->___d3_6;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_24 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_24 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_24);
 			uint8_t L_25 = L_24->___d4_7;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_26 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_26 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_26);
 			uint8_t L_27 = L_26->___d5_8;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_28 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_28 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_28);
 			uint8_t L_29 = L_28->___d6_9;
-			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_30 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16;
+			GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_30 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18;
 			NullCheck(L_30);
 			uint8_t L_31 = L_30->___d7_10;
 			Guid__ctor_mC52E0191E06C110F9F6E0A417BCA4437D79CC130((&V_3), L_11, L_13, L_15, L_17, L_19, L_21, L_23, L_25, L_27, L_29, L_31, NULL);
 			// if (managedGuid != _cachedAudioInGuid)
 			Guid_t L_32 = V_3;
-			Guid_t L_33 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInGuid_17;
+			Guid_t L_33 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInGuid_19;
 			bool L_34;
 			L_34 = Guid_op_Inequality_mAA2FAB73FCD2CB2D2128ECF7016AC16AFBDF6163(L_32, L_33, NULL);
 			V_4 = L_34;
@@ -22450,19 +22450,19 @@ IL_0018_1:
 			// _cachedAudioInGuid = managedGuid;
 			Guid_t L_36 = V_3;
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInGuid_17 = L_36;
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInGuid_19 = L_36;
 			// _cachedAudioInString = _cachedAudioInGuid.ToString();
 			String_t* L_37;
-			L_37 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInGuid_17), NULL);
-			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInString_18 = L_37;
-			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInString_18), (void*)L_37);
+			L_37 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInGuid_19), NULL);
+			((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInString_20 = L_37;
+			Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInString_20), (void*)L_37);
 		}
 
 IL_00e0_1:
 		{
 			// return _cachedAudioInString;
 			il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-			String_t* L_38 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInString_18;
+			String_t* L_38 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedAudioInString_20;
 			V_5 = L_38;
 			goto IL_00fa;
 		}
@@ -27167,7 +27167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppPerfStats_t095BADF468CCD2E70E74B879A423BFD
 	{
 		// if (!perfStatWarningPrinted)
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		bool L_2 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___perfStatWarningPrinted_19;
+		bool L_2 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___perfStatWarningPrinted_21;
 		V_1 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		bool L_3 = V_1;
 		if (!L_3)
@@ -27181,7 +27181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppPerfStats_t095BADF468CCD2E70E74B879A423BFD
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral11908FA390970CC25D7826893E600B754F9B8266, NULL);
 		// perfStatWarningPrinted = true;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___perfStatWarningPrinted_19 = (bool)1;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___perfStatWarningPrinted_21 = (bool)1;
 	}
 
 IL_002d:
@@ -27266,7 +27266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRPlugin_ResetAppPerfStats_mDDEEB732944
 	{
 		// if (!resetPerfStatWarningPrinted)
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		bool L_2 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___resetPerfStatWarningPrinted_20;
+		bool L_2 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___resetPerfStatWarningPrinted_22;
 		V_1 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		bool L_3 = V_1;
 		if (!L_3)
@@ -27280,7 +27280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRPlugin_ResetAppPerfStats_mDDEEB732944
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral6AA35A4681858E9ECF0FE312707FB4D4FD5A7985, NULL);
 		// resetPerfStatWarningPrinted = true;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___resetPerfStatWarningPrinted_20 = (bool)1;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___resetPerfStatWarningPrinted_22 = (bool)1;
 	}
 
 IL_002d:
@@ -30866,7 +30866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52C
 	{
 		// if (_cachedSystemDisplayFrequenciesAvailable == null)
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24;
 		V_0 = (bool)((((RuntimeObject*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -30878,8 +30878,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52C
 		// _cachedSystemDisplayFrequenciesAvailable = new float[0];
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)0);
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22), (void*)L_2);
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24), (void*)L_2);
 		// if (version >= OVRP_1_21_0.version)
 		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_3;
 		L_3 = OVRPlugin_get_version_mF6424FE1E91DF97DE08CD5C7AE1FBC60873A354E(NULL);
@@ -30932,10 +30932,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52C
 		NullCheck(L_15);
 		OVRNativeBuffer__ctor_m49B59D113EB19FB7AB2111CBCD8AC8D2D0EF4285(L_15, ((int32_t)il2cpp_codegen_multiply(4, L_14)), NULL);
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_21 = L_15;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_21), (void*)L_15);
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_23 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_23), (void*)L_15);
 		// result = OVRP_1_21_0.ovrp_GetSystemDisplayAvailableFrequencies(_nativeSystemDisplayFrequenciesAvailable.GetPointer(), ref numFrequencies);
-		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_16 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_21;
+		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_16 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_23;
 		NullCheck(L_16);
 		intptr_t L_17;
 		L_17 = OVRNativeBuffer_GetPointer_m0BDE8F3A317E948AA21A16BAF97CDF360C9C6AA7(L_16, 0, NULL);
@@ -30990,14 +30990,14 @@ IL_0091:
 		int32_t L_27 = V_8;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_28 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_27);
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22 = L_28;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22), (void*)L_28);
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24 = L_28;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24), (void*)L_28);
 		// Marshal.Copy(_nativeSystemDisplayFrequenciesAvailable.GetPointer(), _cachedSystemDisplayFrequenciesAvailable, 0, numElementsToCopy);
-		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_29 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_21;
+		OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* L_29 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_23;
 		NullCheck(L_29);
 		intptr_t L_30;
 		L_30 = OVRNativeBuffer_GetPointer_m0BDE8F3A317E948AA21A16BAF97CDF360C9C6AA7(L_29, 0, NULL);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_31 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_31 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24;
 		int32_t L_32 = V_8;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		Marshal_Copy_m4744F803E7E605726758725D11D157455BD43775(L_30, L_31, 0, L_32, NULL);
@@ -31027,7 +31027,7 @@ IL_00ca:
 	{
 		// return _cachedSystemDisplayFrequenciesAvailable;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_33 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_33 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24;
 		V_10 = L_33;
 		goto IL_00d3;
 	}
@@ -32517,7 +32517,7 @@ IL_0024:
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_runtime_class_init_inline(OVRP_1_44_0_t13DD0C94FDB6C63FBCF7E42AE70E4C7CF5EC322B_il2cpp_TypeInfo_var);
 		int32_t L_9;
-		L_9 = OVRP_1_44_0_ovrp_GetHandState_m3CF995811315C6E1334DB59C7DC39C1A67A64682(L_7, L_8, (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23), NULL);
+		L_9 = OVRP_1_44_0_ovrp_GetHandState_m3CF995811315C6E1334DB59C7DC39C1A67A64682(L_7, L_8, (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25), NULL);
 		V_2 = L_9;
 		// if (res == Result.Success)
 		int32_t L_10 = V_2;
@@ -32652,239 +32652,239 @@ IL_00dd:
 		// handState.Status = cachedHandState.Status;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_33 = ___handState2;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		int32_t L_34 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___Status_0;
+		int32_t L_34 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___Status_0;
 		L_33->___Status_0 = L_34;
 		// handState.RootPose = cachedHandState.RootPose;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_35 = ___handState2;
-		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 L_36 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___RootPose_1;
+		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 L_36 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___RootPose_1;
 		L_35->___RootPose_1 = L_36;
 		// handState.BoneRotations[0] = cachedHandState.BoneRotations_0;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_37 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_38 = L_37->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_39 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_0_2;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_39 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_0_2;
 		NullCheck(L_38);
 		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(0), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_39);
 		// handState.BoneRotations[1] = cachedHandState.BoneRotations_1;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_40 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_41 = L_40->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_42 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_1_3;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_42 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_1_3;
 		NullCheck(L_41);
 		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(1), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_42);
 		// handState.BoneRotations[2] = cachedHandState.BoneRotations_2;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_43 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_44 = L_43->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_45 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_2_4;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_45 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_2_4;
 		NullCheck(L_44);
 		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(2), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_45);
 		// handState.BoneRotations[3] = cachedHandState.BoneRotations_3;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_46 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_47 = L_46->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_48 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_3_5;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_48 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_3_5;
 		NullCheck(L_47);
 		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(3), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_48);
 		// handState.BoneRotations[4] = cachedHandState.BoneRotations_4;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_49 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_50 = L_49->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_51 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_4_6;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_51 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_4_6;
 		NullCheck(L_50);
 		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(4), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_51);
 		// handState.BoneRotations[5] = cachedHandState.BoneRotations_5;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_52 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_53 = L_52->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_54 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_5_7;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_54 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_5_7;
 		NullCheck(L_53);
 		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(5), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_54);
 		// handState.BoneRotations[6] = cachedHandState.BoneRotations_6;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_55 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_56 = L_55->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_57 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_6_8;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_57 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_6_8;
 		NullCheck(L_56);
 		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(6), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_57);
 		// handState.BoneRotations[7] = cachedHandState.BoneRotations_7;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_58 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_59 = L_58->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_60 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_7_9;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_60 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_7_9;
 		NullCheck(L_59);
 		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(7), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_60);
 		// handState.BoneRotations[8] = cachedHandState.BoneRotations_8;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_61 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_62 = L_61->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_63 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_8_10;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_63 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_8_10;
 		NullCheck(L_62);
 		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(8), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_63);
 		// handState.BoneRotations[9] = cachedHandState.BoneRotations_9;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_64 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_65 = L_64->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_66 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_9_11;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_66 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_9_11;
 		NullCheck(L_65);
 		(L_65)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_66);
 		// handState.BoneRotations[10] = cachedHandState.BoneRotations_10;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_67 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_68 = L_67->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_69 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_10_12;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_69 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_10_12;
 		NullCheck(L_68);
 		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_69);
 		// handState.BoneRotations[11] = cachedHandState.BoneRotations_11;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_70 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_71 = L_70->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_72 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_11_13;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_72 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_11_13;
 		NullCheck(L_71);
 		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_72);
 		// handState.BoneRotations[12] = cachedHandState.BoneRotations_12;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_73 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_74 = L_73->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_75 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_12_14;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_75 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_12_14;
 		NullCheck(L_74);
 		(L_74)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_75);
 		// handState.BoneRotations[13] = cachedHandState.BoneRotations_13;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_76 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_77 = L_76->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_78 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_13_15;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_78 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_13_15;
 		NullCheck(L_77);
 		(L_77)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_78);
 		// handState.BoneRotations[14] = cachedHandState.BoneRotations_14;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_79 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_80 = L_79->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_81 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_14_16;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_81 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_14_16;
 		NullCheck(L_80);
 		(L_80)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_81);
 		// handState.BoneRotations[15] = cachedHandState.BoneRotations_15;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_82 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_83 = L_82->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_84 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_15_17;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_84 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_15_17;
 		NullCheck(L_83);
 		(L_83)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_84);
 		// handState.BoneRotations[16] = cachedHandState.BoneRotations_16;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_85 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_86 = L_85->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_87 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_16_18;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_87 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_16_18;
 		NullCheck(L_86);
 		(L_86)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_87);
 		// handState.BoneRotations[17] = cachedHandState.BoneRotations_17;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_88 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_89 = L_88->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_90 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_17_19;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_90 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_17_19;
 		NullCheck(L_89);
 		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_90);
 		// handState.BoneRotations[18] = cachedHandState.BoneRotations_18;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_91 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_92 = L_91->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_93 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_18_20;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_93 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_18_20;
 		NullCheck(L_92);
 		(L_92)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)18)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_93);
 		// handState.BoneRotations[19] = cachedHandState.BoneRotations_19;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_94 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_95 = L_94->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_96 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_19_21;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_96 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_19_21;
 		NullCheck(L_95);
 		(L_95)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)19)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_96);
 		// handState.BoneRotations[20] = cachedHandState.BoneRotations_20;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_97 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_98 = L_97->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_99 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_20_22;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_99 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_20_22;
 		NullCheck(L_98);
 		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)20)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_99);
 		// handState.BoneRotations[21] = cachedHandState.BoneRotations_21;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_100 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_101 = L_100->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_102 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_21_23;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_102 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_21_23;
 		NullCheck(L_101);
 		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)21)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_102);
 		// handState.BoneRotations[22] = cachedHandState.BoneRotations_22;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_103 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_104 = L_103->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_105 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_22_24;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_105 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_22_24;
 		NullCheck(L_104);
 		(L_104)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)22)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_105);
 		// handState.BoneRotations[23] = cachedHandState.BoneRotations_23;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_106 = ___handState2;
 		QuatfU5BU5D_t866C516DA0FC85581934D10E587D323B1B89E3BF* L_107 = L_106->___BoneRotations_2;
-		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_108 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___BoneRotations_23_25;
+		Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A L_108 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___BoneRotations_23_25;
 		NullCheck(L_107);
 		(L_107)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)23)), (Quatf_t5347392804DF5326AF790F82E4EDE1578FED682A)L_108);
 		// handState.Pinches = cachedHandState.Pinches;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_109 = ___handState2;
-		int32_t L_110 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___Pinches_26;
+		int32_t L_110 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___Pinches_26;
 		L_109->___Pinches_3 = L_110;
 		// handState.PinchStrength[0] = cachedHandState.PinchStrength_0;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_111 = ___handState2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_112 = L_111->___PinchStrength_4;
-		float L_113 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___PinchStrength_0_27;
+		float L_113 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___PinchStrength_0_27;
 		NullCheck(L_112);
 		(L_112)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_113);
 		// handState.PinchStrength[1] = cachedHandState.PinchStrength_1;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_114 = ___handState2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_115 = L_114->___PinchStrength_4;
-		float L_116 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___PinchStrength_1_28;
+		float L_116 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___PinchStrength_1_28;
 		NullCheck(L_115);
 		(L_115)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)L_116);
 		// handState.PinchStrength[2] = cachedHandState.PinchStrength_2;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_117 = ___handState2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_118 = L_117->___PinchStrength_4;
-		float L_119 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___PinchStrength_2_29;
+		float L_119 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___PinchStrength_2_29;
 		NullCheck(L_118);
 		(L_118)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)L_119);
 		// handState.PinchStrength[3] = cachedHandState.PinchStrength_3;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_120 = ___handState2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_121 = L_120->___PinchStrength_4;
-		float L_122 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___PinchStrength_3_30;
+		float L_122 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___PinchStrength_3_30;
 		NullCheck(L_121);
 		(L_121)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_122);
 		// handState.PinchStrength[4] = cachedHandState.PinchStrength_4;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_123 = ___handState2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_124 = L_123->___PinchStrength_4;
-		float L_125 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___PinchStrength_4_31;
+		float L_125 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___PinchStrength_4_31;
 		NullCheck(L_124);
 		(L_124)->SetAt(static_cast<il2cpp_array_size_t>(4), (float)L_125);
 		// handState.PointerPose = cachedHandState.PointerPose;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_126 = ___handState2;
-		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 L_127 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___PointerPose_32;
+		Posef_t51A2C10B4094B44A8D3C1913292B839172887B61 L_127 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___PointerPose_32;
 		L_126->___PointerPose_5 = L_127;
 		// handState.HandScale = cachedHandState.HandScale;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_128 = ___handState2;
-		float L_129 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___HandScale_33;
+		float L_129 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___HandScale_33;
 		L_128->___HandScale_6 = L_129;
 		// handState.HandConfidence = cachedHandState.HandConfidence;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_130 = ___handState2;
-		int32_t L_131 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___HandConfidence_34;
+		int32_t L_131 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___HandConfidence_34;
 		L_130->___HandConfidence_7 = L_131;
 		// handState.FingerConfidences[0] = cachedHandState.FingerConfidences_0;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_132 = ___handState2;
 		TrackingConfidenceU5BU5D_t6B1A6ADEF3656B62D4BE66AE16338E2001714B37* L_133 = L_132->___FingerConfidences_8;
-		int32_t L_134 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___FingerConfidences_0_35;
+		int32_t L_134 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___FingerConfidences_0_35;
 		NullCheck(L_133);
 		(L_133)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_134);
 		// handState.FingerConfidences[1] = cachedHandState.FingerConfidences_1;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_135 = ___handState2;
 		TrackingConfidenceU5BU5D_t6B1A6ADEF3656B62D4BE66AE16338E2001714B37* L_136 = L_135->___FingerConfidences_8;
-		int32_t L_137 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___FingerConfidences_1_36;
+		int32_t L_137 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___FingerConfidences_1_36;
 		NullCheck(L_136);
 		(L_136)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_137);
 		// handState.FingerConfidences[2] = cachedHandState.FingerConfidences_2;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_138 = ___handState2;
 		TrackingConfidenceU5BU5D_t6B1A6ADEF3656B62D4BE66AE16338E2001714B37* L_139 = L_138->___FingerConfidences_8;
-		int32_t L_140 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___FingerConfidences_2_37;
+		int32_t L_140 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___FingerConfidences_2_37;
 		NullCheck(L_139);
 		(L_139)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_140);
 		// handState.FingerConfidences[3] = cachedHandState.FingerConfidences_3;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_141 = ___handState2;
 		TrackingConfidenceU5BU5D_t6B1A6ADEF3656B62D4BE66AE16338E2001714B37* L_142 = L_141->___FingerConfidences_8;
-		int32_t L_143 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___FingerConfidences_3_38;
+		int32_t L_143 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___FingerConfidences_3_38;
 		NullCheck(L_142);
 		(L_142)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)L_143);
 		// handState.FingerConfidences[4] = cachedHandState.FingerConfidences_4;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_144 = ___handState2;
 		TrackingConfidenceU5BU5D_t6B1A6ADEF3656B62D4BE66AE16338E2001714B37* L_145 = L_144->___FingerConfidences_8;
-		int32_t L_146 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___FingerConfidences_4_39;
+		int32_t L_146 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___FingerConfidences_4_39;
 		NullCheck(L_145);
 		(L_145)->SetAt(static_cast<il2cpp_array_size_t>(4), (int32_t)L_146);
 		// handState.RequestedTimeStamp = cachedHandState.RequestedTimeStamp;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_147 = ___handState2;
-		double L_148 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___RequestedTimeStamp_40;
+		double L_148 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___RequestedTimeStamp_40;
 		L_147->___RequestedTimeStamp_9 = L_148;
 		// handState.SampleTimeStamp = cachedHandState.SampleTimeStamp;
 		HandState_tBF8DBB131D6A5677B70CACE42D72161A261AA552* L_149 = ___handState2;
-		double L_150 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23)->___SampleTimeStamp_41;
+		double L_150 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25)->___SampleTimeStamp_41;
 		L_149->___SampleTimeStamp_10 = L_150;
 		// return true;
 		V_7 = (bool)1;
@@ -33019,7 +33019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRPlugin_GetSkeleton2_m0EC957E2CF1FCC3B
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_runtime_class_init_inline(OVRP_1_55_0_tB84D12B14A0B4491BA42386048FAAF69CAB3D5E9_il2cpp_TypeInfo_var);
 		int32_t L_5;
-		L_5 = OVRP_1_55_0_ovrp_GetSkeleton2_mA354C5BFDC3B0A12CC5636A924A44EB3D9F165D4(L_4, (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25), NULL);
+		L_5 = OVRP_1_55_0_ovrp_GetSkeleton2_mA354C5BFDC3B0A12CC5636A924A44EB3D9F165D4(L_4, (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27), NULL);
 		V_1 = L_5;
 		// if (res == Result.Success)
 		int32_t L_6 = V_1;
@@ -33114,548 +33114,548 @@ IL_008c:
 		// skeleton.Type = cachedSkeleton2.Type;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_22 = ___skeleton1;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		int32_t L_23 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Type_0;
+		int32_t L_23 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Type_0;
 		L_22->___Type_0 = L_23;
 		// skeleton.NumBones = cachedSkeleton2.NumBones;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_24 = ___skeleton1;
-		uint32_t L_25 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___NumBones_1;
+		uint32_t L_25 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___NumBones_1;
 		L_24->___NumBones_1 = L_25;
 		// skeleton.NumBoneCapsules = cachedSkeleton2.NumBoneCapsules;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_26 = ___skeleton1;
-		uint32_t L_27 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___NumBoneCapsules_2;
+		uint32_t L_27 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___NumBoneCapsules_2;
 		L_26->___NumBoneCapsules_2 = L_27;
 		// skeleton.Bones[0] = cachedSkeleton2.Bones_0;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_28 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_29 = L_28->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_30 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_0_3;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_30 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_0_3;
 		NullCheck(L_29);
 		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(0), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_30);
 		// skeleton.Bones[1] = cachedSkeleton2.Bones_1;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_31 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_32 = L_31->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_33 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_1_4;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_33 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_1_4;
 		NullCheck(L_32);
 		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(1), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_33);
 		// skeleton.Bones[2] = cachedSkeleton2.Bones_2;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_34 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_35 = L_34->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_36 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_2_5;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_36 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_2_5;
 		NullCheck(L_35);
 		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(2), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_36);
 		// skeleton.Bones[3] = cachedSkeleton2.Bones_3;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_37 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_38 = L_37->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_39 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_3_6;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_39 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_3_6;
 		NullCheck(L_38);
 		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(3), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_39);
 		// skeleton.Bones[4] = cachedSkeleton2.Bones_4;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_40 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_41 = L_40->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_42 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_4_7;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_42 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_4_7;
 		NullCheck(L_41);
 		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(4), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_42);
 		// skeleton.Bones[5] = cachedSkeleton2.Bones_5;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_43 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_44 = L_43->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_45 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_5_8;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_45 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_5_8;
 		NullCheck(L_44);
 		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(5), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_45);
 		// skeleton.Bones[6] = cachedSkeleton2.Bones_6;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_46 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_47 = L_46->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_48 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_6_9;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_48 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_6_9;
 		NullCheck(L_47);
 		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(6), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_48);
 		// skeleton.Bones[7] = cachedSkeleton2.Bones_7;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_49 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_50 = L_49->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_51 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_7_10;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_51 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_7_10;
 		NullCheck(L_50);
 		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(7), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_51);
 		// skeleton.Bones[8] = cachedSkeleton2.Bones_8;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_52 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_53 = L_52->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_54 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_8_11;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_54 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_8_11;
 		NullCheck(L_53);
 		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(8), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_54);
 		// skeleton.Bones[9] = cachedSkeleton2.Bones_9;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_55 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_56 = L_55->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_57 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_9_12;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_57 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_9_12;
 		NullCheck(L_56);
 		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_57);
 		// skeleton.Bones[10] = cachedSkeleton2.Bones_10;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_58 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_59 = L_58->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_60 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_10_13;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_60 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_10_13;
 		NullCheck(L_59);
 		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_60);
 		// skeleton.Bones[11] = cachedSkeleton2.Bones_11;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_61 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_62 = L_61->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_63 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_11_14;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_63 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_11_14;
 		NullCheck(L_62);
 		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_63);
 		// skeleton.Bones[12] = cachedSkeleton2.Bones_12;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_64 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_65 = L_64->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_66 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_12_15;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_66 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_12_15;
 		NullCheck(L_65);
 		(L_65)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_66);
 		// skeleton.Bones[13] = cachedSkeleton2.Bones_13;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_67 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_68 = L_67->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_69 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_13_16;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_69 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_13_16;
 		NullCheck(L_68);
 		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_69);
 		// skeleton.Bones[14] = cachedSkeleton2.Bones_14;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_70 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_71 = L_70->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_72 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_14_17;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_72 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_14_17;
 		NullCheck(L_71);
 		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_72);
 		// skeleton.Bones[15] = cachedSkeleton2.Bones_15;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_73 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_74 = L_73->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_75 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_15_18;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_75 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_15_18;
 		NullCheck(L_74);
 		(L_74)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_75);
 		// skeleton.Bones[16] = cachedSkeleton2.Bones_16;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_76 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_77 = L_76->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_78 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_16_19;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_78 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_16_19;
 		NullCheck(L_77);
 		(L_77)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_78);
 		// skeleton.Bones[17] = cachedSkeleton2.Bones_17;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_79 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_80 = L_79->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_81 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_17_20;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_81 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_17_20;
 		NullCheck(L_80);
 		(L_80)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_81);
 		// skeleton.Bones[18] = cachedSkeleton2.Bones_18;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_82 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_83 = L_82->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_84 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_18_21;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_84 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_18_21;
 		NullCheck(L_83);
 		(L_83)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)18)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_84);
 		// skeleton.Bones[19] = cachedSkeleton2.Bones_19;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_85 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_86 = L_85->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_87 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_19_22;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_87 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_19_22;
 		NullCheck(L_86);
 		(L_86)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)19)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_87);
 		// skeleton.Bones[20] = cachedSkeleton2.Bones_20;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_88 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_89 = L_88->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_90 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_20_23;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_90 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_20_23;
 		NullCheck(L_89);
 		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)20)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_90);
 		// skeleton.Bones[21] = cachedSkeleton2.Bones_21;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_91 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_92 = L_91->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_93 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_21_24;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_93 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_21_24;
 		NullCheck(L_92);
 		(L_92)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)21)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_93);
 		// skeleton.Bones[22] = cachedSkeleton2.Bones_22;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_94 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_95 = L_94->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_96 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_22_25;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_96 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_22_25;
 		NullCheck(L_95);
 		(L_95)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)22)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_96);
 		// skeleton.Bones[23] = cachedSkeleton2.Bones_23;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_97 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_98 = L_97->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_99 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_23_26;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_99 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_23_26;
 		NullCheck(L_98);
 		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)23)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_99);
 		// skeleton.Bones[24] = cachedSkeleton2.Bones_24;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_100 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_101 = L_100->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_102 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_24_27;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_102 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_24_27;
 		NullCheck(L_101);
 		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)24)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_102);
 		// skeleton.Bones[25] = cachedSkeleton2.Bones_25;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_103 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_104 = L_103->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_105 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_25_28;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_105 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_25_28;
 		NullCheck(L_104);
 		(L_104)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)25)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_105);
 		// skeleton.Bones[26] = cachedSkeleton2.Bones_26;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_106 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_107 = L_106->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_108 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_26_29;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_108 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_26_29;
 		NullCheck(L_107);
 		(L_107)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)26)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_108);
 		// skeleton.Bones[27] = cachedSkeleton2.Bones_27;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_109 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_110 = L_109->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_111 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_27_30;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_111 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_27_30;
 		NullCheck(L_110);
 		(L_110)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)27)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_111);
 		// skeleton.Bones[28] = cachedSkeleton2.Bones_28;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_112 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_113 = L_112->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_114 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_28_31;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_114 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_28_31;
 		NullCheck(L_113);
 		(L_113)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)28)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_114);
 		// skeleton.Bones[29] = cachedSkeleton2.Bones_29;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_115 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_116 = L_115->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_117 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_29_32;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_117 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_29_32;
 		NullCheck(L_116);
 		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)29)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_117);
 		// skeleton.Bones[30] = cachedSkeleton2.Bones_30;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_118 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_119 = L_118->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_120 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_30_33;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_120 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_30_33;
 		NullCheck(L_119);
 		(L_119)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)30)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_120);
 		// skeleton.Bones[31] = cachedSkeleton2.Bones_31;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_121 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_122 = L_121->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_123 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_31_34;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_123 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_31_34;
 		NullCheck(L_122);
 		(L_122)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)31)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_123);
 		// skeleton.Bones[32] = cachedSkeleton2.Bones_32;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_124 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_125 = L_124->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_126 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_32_35;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_126 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_32_35;
 		NullCheck(L_125);
 		(L_125)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)32)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_126);
 		// skeleton.Bones[33] = cachedSkeleton2.Bones_33;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_127 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_128 = L_127->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_129 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_33_36;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_129 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_33_36;
 		NullCheck(L_128);
 		(L_128)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)33)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_129);
 		// skeleton.Bones[34] = cachedSkeleton2.Bones_34;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_130 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_131 = L_130->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_132 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_34_37;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_132 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_34_37;
 		NullCheck(L_131);
 		(L_131)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)34)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_132);
 		// skeleton.Bones[35] = cachedSkeleton2.Bones_35;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_133 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_134 = L_133->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_135 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_35_38;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_135 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_35_38;
 		NullCheck(L_134);
 		(L_134)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)35)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_135);
 		// skeleton.Bones[36] = cachedSkeleton2.Bones_36;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_136 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_137 = L_136->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_138 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_36_39;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_138 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_36_39;
 		NullCheck(L_137);
 		(L_137)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)36)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_138);
 		// skeleton.Bones[37] = cachedSkeleton2.Bones_37;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_139 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_140 = L_139->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_141 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_37_40;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_141 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_37_40;
 		NullCheck(L_140);
 		(L_140)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)37)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_141);
 		// skeleton.Bones[38] = cachedSkeleton2.Bones_38;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_142 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_143 = L_142->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_144 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_38_41;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_144 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_38_41;
 		NullCheck(L_143);
 		(L_143)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)38)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_144);
 		// skeleton.Bones[39] = cachedSkeleton2.Bones_39;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_145 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_146 = L_145->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_147 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_39_42;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_147 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_39_42;
 		NullCheck(L_146);
 		(L_146)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)39)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_147);
 		// skeleton.Bones[40] = cachedSkeleton2.Bones_40;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_148 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_149 = L_148->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_150 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_40_43;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_150 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_40_43;
 		NullCheck(L_149);
 		(L_149)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)40)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_150);
 		// skeleton.Bones[41] = cachedSkeleton2.Bones_41;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_151 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_152 = L_151->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_153 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_41_44;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_153 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_41_44;
 		NullCheck(L_152);
 		(L_152)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)41)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_153);
 		// skeleton.Bones[42] = cachedSkeleton2.Bones_42;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_154 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_155 = L_154->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_156 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_42_45;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_156 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_42_45;
 		NullCheck(L_155);
 		(L_155)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)42)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_156);
 		// skeleton.Bones[43] = cachedSkeleton2.Bones_43;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_157 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_158 = L_157->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_159 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_43_46;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_159 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_43_46;
 		NullCheck(L_158);
 		(L_158)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)43)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_159);
 		// skeleton.Bones[44] = cachedSkeleton2.Bones_44;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_160 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_161 = L_160->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_162 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_44_47;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_162 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_44_47;
 		NullCheck(L_161);
 		(L_161)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)44)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_162);
 		// skeleton.Bones[45] = cachedSkeleton2.Bones_45;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_163 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_164 = L_163->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_165 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_45_48;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_165 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_45_48;
 		NullCheck(L_164);
 		(L_164)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)45)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_165);
 		// skeleton.Bones[46] = cachedSkeleton2.Bones_46;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_166 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_167 = L_166->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_168 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_46_49;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_168 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_46_49;
 		NullCheck(L_167);
 		(L_167)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)46)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_168);
 		// skeleton.Bones[47] = cachedSkeleton2.Bones_47;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_169 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_170 = L_169->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_171 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_47_50;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_171 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_47_50;
 		NullCheck(L_170);
 		(L_170)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)47)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_171);
 		// skeleton.Bones[48] = cachedSkeleton2.Bones_48;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_172 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_173 = L_172->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_174 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_48_51;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_174 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_48_51;
 		NullCheck(L_173);
 		(L_173)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)48)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_174);
 		// skeleton.Bones[49] = cachedSkeleton2.Bones_49;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_175 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_176 = L_175->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_177 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_49_52;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_177 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_49_52;
 		NullCheck(L_176);
 		(L_176)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)49)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_177);
 		// skeleton.Bones[50] = cachedSkeleton2.Bones_50;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_178 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_179 = L_178->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_180 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_50_53;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_180 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_50_53;
 		NullCheck(L_179);
 		(L_179)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)50)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_180);
 		// skeleton.Bones[51] = cachedSkeleton2.Bones_51;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_181 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_182 = L_181->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_183 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_51_54;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_183 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_51_54;
 		NullCheck(L_182);
 		(L_182)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)51)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_183);
 		// skeleton.Bones[52] = cachedSkeleton2.Bones_52;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_184 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_185 = L_184->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_186 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_52_55;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_186 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_52_55;
 		NullCheck(L_185);
 		(L_185)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)52)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_186);
 		// skeleton.Bones[53] = cachedSkeleton2.Bones_53;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_187 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_188 = L_187->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_189 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_53_56;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_189 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_53_56;
 		NullCheck(L_188);
 		(L_188)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)53)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_189);
 		// skeleton.Bones[54] = cachedSkeleton2.Bones_54;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_190 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_191 = L_190->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_192 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_54_57;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_192 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_54_57;
 		NullCheck(L_191);
 		(L_191)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)54)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_192);
 		// skeleton.Bones[55] = cachedSkeleton2.Bones_55;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_193 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_194 = L_193->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_195 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_55_58;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_195 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_55_58;
 		NullCheck(L_194);
 		(L_194)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)55)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_195);
 		// skeleton.Bones[56] = cachedSkeleton2.Bones_56;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_196 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_197 = L_196->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_198 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_56_59;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_198 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_56_59;
 		NullCheck(L_197);
 		(L_197)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)56)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_198);
 		// skeleton.Bones[57] = cachedSkeleton2.Bones_57;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_199 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_200 = L_199->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_201 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_57_60;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_201 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_57_60;
 		NullCheck(L_200);
 		(L_200)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)57)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_201);
 		// skeleton.Bones[58] = cachedSkeleton2.Bones_58;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_202 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_203 = L_202->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_204 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_58_61;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_204 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_58_61;
 		NullCheck(L_203);
 		(L_203)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)58)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_204);
 		// skeleton.Bones[59] = cachedSkeleton2.Bones_59;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_205 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_206 = L_205->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_207 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_59_62;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_207 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_59_62;
 		NullCheck(L_206);
 		(L_206)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)59)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_207);
 		// skeleton.Bones[60] = cachedSkeleton2.Bones_60;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_208 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_209 = L_208->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_210 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_60_63;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_210 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_60_63;
 		NullCheck(L_209);
 		(L_209)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)60)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_210);
 		// skeleton.Bones[61] = cachedSkeleton2.Bones_61;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_211 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_212 = L_211->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_213 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_61_64;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_213 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_61_64;
 		NullCheck(L_212);
 		(L_212)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)61)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_213);
 		// skeleton.Bones[62] = cachedSkeleton2.Bones_62;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_214 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_215 = L_214->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_216 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_62_65;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_216 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_62_65;
 		NullCheck(L_215);
 		(L_215)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)62)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_216);
 		// skeleton.Bones[63] = cachedSkeleton2.Bones_63;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_217 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_218 = L_217->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_219 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_63_66;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_219 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_63_66;
 		NullCheck(L_218);
 		(L_218)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)63)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_219);
 		// skeleton.Bones[64] = cachedSkeleton2.Bones_64;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_220 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_221 = L_220->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_222 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_64_67;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_222 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_64_67;
 		NullCheck(L_221);
 		(L_221)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)64)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_222);
 		// skeleton.Bones[65] = cachedSkeleton2.Bones_65;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_223 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_224 = L_223->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_225 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_65_68;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_225 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_65_68;
 		NullCheck(L_224);
 		(L_224)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)65)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_225);
 		// skeleton.Bones[66] = cachedSkeleton2.Bones_66;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_226 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_227 = L_226->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_228 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_66_69;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_228 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_66_69;
 		NullCheck(L_227);
 		(L_227)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)66)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_228);
 		// skeleton.Bones[67] = cachedSkeleton2.Bones_67;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_229 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_230 = L_229->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_231 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_67_70;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_231 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_67_70;
 		NullCheck(L_230);
 		(L_230)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)67)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_231);
 		// skeleton.Bones[68] = cachedSkeleton2.Bones_68;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_232 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_233 = L_232->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_234 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_68_71;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_234 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_68_71;
 		NullCheck(L_233);
 		(L_233)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)68)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_234);
 		// skeleton.Bones[69] = cachedSkeleton2.Bones_69;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_235 = ___skeleton1;
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_236 = L_235->___Bones_3;
-		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_237 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___Bones_69_72;
+		Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D L_237 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___Bones_69_72;
 		NullCheck(L_236);
 		(L_236)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)69)), (Bone_tC5A0FC2629B8200D2FAA3C6E4DA8AF048617E43D)L_237);
 		// skeleton.BoneCapsules[0] = cachedSkeleton2.BoneCapsules_0;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_238 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_239 = L_238->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_240 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_0_73;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_240 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_0_73;
 		NullCheck(L_239);
 		(L_239)->SetAt(static_cast<il2cpp_array_size_t>(0), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_240);
 		// skeleton.BoneCapsules[1] = cachedSkeleton2.BoneCapsules_1;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_241 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_242 = L_241->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_243 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_1_74;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_243 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_1_74;
 		NullCheck(L_242);
 		(L_242)->SetAt(static_cast<il2cpp_array_size_t>(1), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_243);
 		// skeleton.BoneCapsules[2] = cachedSkeleton2.BoneCapsules_2;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_244 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_245 = L_244->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_246 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_2_75;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_246 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_2_75;
 		NullCheck(L_245);
 		(L_245)->SetAt(static_cast<il2cpp_array_size_t>(2), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_246);
 		// skeleton.BoneCapsules[3] = cachedSkeleton2.BoneCapsules_3;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_247 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_248 = L_247->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_249 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_3_76;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_249 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_3_76;
 		NullCheck(L_248);
 		(L_248)->SetAt(static_cast<il2cpp_array_size_t>(3), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_249);
 		// skeleton.BoneCapsules[4] = cachedSkeleton2.BoneCapsules_4;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_250 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_251 = L_250->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_252 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_4_77;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_252 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_4_77;
 		NullCheck(L_251);
 		(L_251)->SetAt(static_cast<il2cpp_array_size_t>(4), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_252);
 		// skeleton.BoneCapsules[5] = cachedSkeleton2.BoneCapsules_5;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_253 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_254 = L_253->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_255 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_5_78;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_255 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_5_78;
 		NullCheck(L_254);
 		(L_254)->SetAt(static_cast<il2cpp_array_size_t>(5), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_255);
 		// skeleton.BoneCapsules[6] = cachedSkeleton2.BoneCapsules_6;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_256 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_257 = L_256->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_258 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_6_79;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_258 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_6_79;
 		NullCheck(L_257);
 		(L_257)->SetAt(static_cast<il2cpp_array_size_t>(6), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_258);
 		// skeleton.BoneCapsules[7] = cachedSkeleton2.BoneCapsules_7;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_259 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_260 = L_259->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_261 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_7_80;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_261 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_7_80;
 		NullCheck(L_260);
 		(L_260)->SetAt(static_cast<il2cpp_array_size_t>(7), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_261);
 		// skeleton.BoneCapsules[8] = cachedSkeleton2.BoneCapsules_8;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_262 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_263 = L_262->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_264 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_8_81;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_264 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_8_81;
 		NullCheck(L_263);
 		(L_263)->SetAt(static_cast<il2cpp_array_size_t>(8), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_264);
 		// skeleton.BoneCapsules[9] = cachedSkeleton2.BoneCapsules_9;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_265 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_266 = L_265->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_267 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_9_82;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_267 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_9_82;
 		NullCheck(L_266);
 		(L_266)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_267);
 		// skeleton.BoneCapsules[10] = cachedSkeleton2.BoneCapsules_10;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_268 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_269 = L_268->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_270 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_10_83;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_270 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_10_83;
 		NullCheck(L_269);
 		(L_269)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_270);
 		// skeleton.BoneCapsules[11] = cachedSkeleton2.BoneCapsules_11;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_271 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_272 = L_271->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_273 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_11_84;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_273 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_11_84;
 		NullCheck(L_272);
 		(L_272)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_273);
 		// skeleton.BoneCapsules[12] = cachedSkeleton2.BoneCapsules_12;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_274 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_275 = L_274->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_276 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_12_85;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_276 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_12_85;
 		NullCheck(L_275);
 		(L_275)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_276);
 		// skeleton.BoneCapsules[13] = cachedSkeleton2.BoneCapsules_13;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_277 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_278 = L_277->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_279 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_13_86;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_279 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_13_86;
 		NullCheck(L_278);
 		(L_278)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_279);
 		// skeleton.BoneCapsules[14] = cachedSkeleton2.BoneCapsules_14;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_280 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_281 = L_280->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_282 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_14_87;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_282 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_14_87;
 		NullCheck(L_281);
 		(L_281)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_282);
 		// skeleton.BoneCapsules[15] = cachedSkeleton2.BoneCapsules_15;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_283 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_284 = L_283->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_285 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_15_88;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_285 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_15_88;
 		NullCheck(L_284);
 		(L_284)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_285);
 		// skeleton.BoneCapsules[16] = cachedSkeleton2.BoneCapsules_16;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_286 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_287 = L_286->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_288 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_16_89;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_288 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_16_89;
 		NullCheck(L_287);
 		(L_287)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_288);
 		// skeleton.BoneCapsules[17] = cachedSkeleton2.BoneCapsules_17;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_289 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_290 = L_289->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_291 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_17_90;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_291 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_17_90;
 		NullCheck(L_290);
 		(L_290)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_291);
 		// skeleton.BoneCapsules[18] = cachedSkeleton2.BoneCapsules_18;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_292 = ___skeleton1;
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_293 = L_292->___BoneCapsules_4;
-		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_294 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25)->___BoneCapsules_18_91;
+		BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74 L_294 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27)->___BoneCapsules_18_91;
 		NullCheck(L_293);
 		(L_293)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)18)), (BoneCapsule_tF1A2277B943643BF2B8969910821CBAE47B3DD74)L_294);
 		// return true;
@@ -33676,7 +33676,7 @@ IL_08ba:
 		int32_t L_295 = ___skeletonType0;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
 		bool L_296;
-		L_296 = OVRPlugin_GetSkeleton_m21D6A984F3C35DF7EF079BC722984F504A856E34(L_295, (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_24), NULL);
+		L_296 = OVRPlugin_GetSkeleton_m21D6A984F3C35DF7EF079BC722984F504A856E34(L_295, (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_26), NULL);
 		V_6 = L_296;
 		bool L_297 = V_6;
 		if (!L_297)
@@ -33768,15 +33768,15 @@ IL_092e:
 		// skeleton.Type = cachedSkeleton.Type;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_312 = ___skeleton1;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		int32_t L_313 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_24)->___Type_0;
+		int32_t L_313 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_26)->___Type_0;
 		L_312->___Type_0 = L_313;
 		// skeleton.NumBones = cachedSkeleton.NumBones;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_314 = ___skeleton1;
-		uint32_t L_315 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_24)->___NumBones_1;
+		uint32_t L_315 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_26)->___NumBones_1;
 		L_314->___NumBones_1 = L_315;
 		// skeleton.NumBoneCapsules = cachedSkeleton.NumBoneCapsules;
 		Skeleton2_t558BDFE1648B3DE26A17435B6BE8E692EA33025F* L_316 = ___skeleton1;
-		uint32_t L_317 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_24)->___NumBoneCapsules_2;
+		uint32_t L_317 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_26)->___NumBoneCapsules_2;
 		L_316->___NumBoneCapsules_2 = L_317;
 		// for (int i = 0; i < skeleton.NumBones; i++)
 		V_9 = 0;
@@ -33790,7 +33790,7 @@ IL_0963:
 		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_319 = L_318->___Bones_3;
 		int32_t L_320 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_321 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_24)->___Bones_3;
+		BoneU5BU5D_t71824F0E389C7A0C2B4986FF8CFB94C76081B784* L_321 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_26)->___Bones_3;
 		int32_t L_322 = V_9;
 		NullCheck(L_321);
 		int32_t L_323 = L_322;
@@ -33828,7 +33828,7 @@ IL_09a0:
 		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_331 = L_330->___BoneCapsules_4;
 		int32_t L_332 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_333 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_24)->___BoneCapsules_4;
+		BoneCapsuleU5BU5D_t672686845F44330C5D4B27EE19A8557BFE657B44* L_333 = (&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_26)->___BoneCapsules_4;
 		int32_t L_334 = V_11;
 		NullCheck(L_333);
 		int32_t L_335 = L_334;
@@ -37239,49 +37239,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPlugin__cctor_m077322BF80F9EC92EF3923
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// private static System.Version _versionZero = new System.Version(0, 0, 0);
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Version__ctor_m7D8EE608025AE8D7AD8867718BC0AC96A2CFC1F5(L_0, 0, 0, 0, NULL);
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_1), (void*)L_0);
 		// public static readonly System.Version wrapperVersion = OVRP_1_76_0.version;
 		il2cpp_codegen_runtime_class_init_inline(OVRP_1_76_0_t3080601E504AFDC2043C634602D8745331E097D6_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_0 = ((OVRP_1_76_0_t3080601E504AFDC2043C634602D8745331E097D6_StaticFields*)il2cpp_codegen_static_fields_for(OVRP_1_76_0_t3080601E504AFDC2043C634602D8745331E097D6_il2cpp_TypeInfo_var))->___version_0;
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_1), (void*)L_0);
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_1 = ((OVRP_1_76_0_t3080601E504AFDC2043C634602D8745331E097D6_StaticFields*)il2cpp_codegen_static_fields_for(OVRP_1_76_0_t3080601E504AFDC2043C634602D8745331E097D6_il2cpp_TypeInfo_var))->___version_0;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_3 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_3), (void*)L_1);
 		// public static int MAX_CPU_CORES = 8;
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___MAX_CPU_CORES_4 = 8;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___MAX_CPU_CORES_6 = 8;
 		// private static XrApi? _nativeXrApi = null;
-		il2cpp_codegen_initobj((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_12), sizeof(Nullable_1_tC438FE0466EF1565EE278C732EE7C3053C1053C4));
+		il2cpp_codegen_initobj((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeXrApi_14), sizeof(Nullable_1_tC438FE0466EF1565EE278C732EE7C3053C1053C4));
 		// private static GUID _nativeAudioOutGuid = new OVRPlugin.GUID();
-		GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_1 = (GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7*)il2cpp_codegen_object_new(GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		GUID__ctor_mE86A653F57E2611E4C38C623AAE82CF5507CA592(L_1, NULL);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_13), (void*)L_1);
-		// private static GUID _nativeAudioInGuid = new OVRPlugin.GUID();
 		GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_2 = (GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7*)il2cpp_codegen_object_new(GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		GUID__ctor_mE86A653F57E2611E4C38C623AAE82CF5507CA592(L_2, NULL);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_16), (void*)L_2);
-		// private static bool perfStatWarningPrinted = false;
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___perfStatWarningPrinted_19 = (bool)0;
-		// private static bool resetPerfStatWarningPrinted = false;
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___resetPerfStatWarningPrinted_20 = (bool)0;
-		// private static OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable = null;
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_21 = (OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_21), (void*)(OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915*)NULL);
-		// private static float[] _cachedSystemDisplayFrequenciesAvailable = null;
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_22), (void*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL);
-		// private static HandStateInternal cachedHandState = new HandStateInternal();
-		il2cpp_codegen_initobj((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_23), sizeof(HandStateInternal_tADD472E69CDB0B051EFD5EAAFB69D16BA364BE37));
-		// private static Skeleton cachedSkeleton = new Skeleton();
-		il2cpp_codegen_initobj((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_24), sizeof(Skeleton_tB4F8C22D03DF1FD94CF2389561489C573C84FF0E));
-		// private static Skeleton2Internal cachedSkeleton2 = new Skeleton2Internal();
-		il2cpp_codegen_initobj((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_25), sizeof(Skeleton2Internal_tF8531C814EC7E128C6EE97A4547497AE2042E432));
-		// private static System.Version _versionZero = new System.Version(0, 0, 0);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_3 = (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7*)il2cpp_codegen_object_new(Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7_il2cpp_TypeInfo_var);
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioOutGuid_15), (void*)L_2);
+		// private static GUID _nativeAudioInGuid = new OVRPlugin.GUID();
+		GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* L_3 = (GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7*)il2cpp_codegen_object_new(GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
-		Version__ctor_m7D8EE608025AE8D7AD8867718BC0AC96A2CFC1F5(L_3, 0, 0, 0, NULL);
-		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_27 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____versionZero_27), (void*)L_3);
+		GUID__ctor_mE86A653F57E2611E4C38C623AAE82CF5507CA592(L_3, NULL);
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeAudioInGuid_18), (void*)L_3);
+		// private static bool perfStatWarningPrinted = false;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___perfStatWarningPrinted_21 = (bool)0;
+		// private static bool resetPerfStatWarningPrinted = false;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___resetPerfStatWarningPrinted_22 = (bool)0;
+		// private static OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable = null;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_23 = (OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____nativeSystemDisplayFrequenciesAvailable_23), (void*)(OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915*)NULL);
+		// private static float[] _cachedSystemDisplayFrequenciesAvailable = null;
+		((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->____cachedSystemDisplayFrequenciesAvailable_24), (void*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL);
+		// private static HandStateInternal cachedHandState = new HandStateInternal();
+		il2cpp_codegen_initobj((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedHandState_25), sizeof(HandStateInternal_tADD472E69CDB0B051EFD5EAAFB69D16BA364BE37));
+		// private static Skeleton cachedSkeleton = new Skeleton();
+		il2cpp_codegen_initobj((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton_26), sizeof(Skeleton_tB4F8C22D03DF1FD94CF2389561489C573C84FF0E));
+		// private static Skeleton2Internal cachedSkeleton2 = new Skeleton2Internal();
+		il2cpp_codegen_initobj((&((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___cachedSkeleton2_27), sizeof(Skeleton2Internal_tF8531C814EC7E128C6EE97A4547497AE2042E432));
 		return;
 	}
 }

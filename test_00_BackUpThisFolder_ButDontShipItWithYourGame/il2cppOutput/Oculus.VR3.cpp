@@ -6215,44 +6215,44 @@ struct OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B  : public RuntimeObje
 
 struct OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields
 {
-	// System.Version OVRPlugin::wrapperVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___wrapperVersion_1;
-	// System.Version OVRPlugin::_version
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____version_2;
-	// System.Version OVRPlugin::_nativeSDKVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____nativeSDKVersion_3;
-	// System.Int32 OVRPlugin::MAX_CPU_CORES
-	int32_t ___MAX_CPU_CORES_4;
-	// System.Nullable`1<OVRPlugin/XrApi> OVRPlugin::_nativeXrApi
-	Nullable_1_tC438FE0466EF1565EE278C732EE7C3053C1053C4 ____nativeXrApi_12;
-	// OVRPlugin/GUID OVRPlugin::_nativeAudioOutGuid
-	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioOutGuid_13;
-	// System.Guid OVRPlugin::_cachedAudioOutGuid
-	Guid_t ____cachedAudioOutGuid_14;
-	// System.String OVRPlugin::_cachedAudioOutString
-	String_t* ____cachedAudioOutString_15;
-	// OVRPlugin/GUID OVRPlugin::_nativeAudioInGuid
-	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioInGuid_16;
-	// System.Guid OVRPlugin::_cachedAudioInGuid
-	Guid_t ____cachedAudioInGuid_17;
-	// System.String OVRPlugin::_cachedAudioInString
-	String_t* ____cachedAudioInString_18;
-	// System.Boolean OVRPlugin::perfStatWarningPrinted
-	bool ___perfStatWarningPrinted_19;
-	// System.Boolean OVRPlugin::resetPerfStatWarningPrinted
-	bool ___resetPerfStatWarningPrinted_20;
-	// OVRNativeBuffer OVRPlugin::_nativeSystemDisplayFrequenciesAvailable
-	OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* ____nativeSystemDisplayFrequenciesAvailable_21;
-	// System.Single[] OVRPlugin::_cachedSystemDisplayFrequenciesAvailable
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____cachedSystemDisplayFrequenciesAvailable_22;
-	// OVRPlugin/HandStateInternal OVRPlugin::cachedHandState
-	HandStateInternal_tADD472E69CDB0B051EFD5EAAFB69D16BA364BE37 ___cachedHandState_23;
-	// OVRPlugin/Skeleton OVRPlugin::cachedSkeleton
-	Skeleton_tB4F8C22D03DF1FD94CF2389561489C573C84FF0E ___cachedSkeleton_24;
-	// OVRPlugin/Skeleton2Internal OVRPlugin::cachedSkeleton2
-	Skeleton2Internal_tF8531C814EC7E128C6EE97A4547497AE2042E432 ___cachedSkeleton2_25;
 	// System.Version OVRPlugin::_versionZero
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____versionZero_27;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____versionZero_1;
+	// System.Version OVRPlugin::wrapperVersion
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___wrapperVersion_3;
+	// System.Version OVRPlugin::_version
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____version_4;
+	// System.Version OVRPlugin::_nativeSDKVersion
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ____nativeSDKVersion_5;
+	// System.Int32 OVRPlugin::MAX_CPU_CORES
+	int32_t ___MAX_CPU_CORES_6;
+	// System.Nullable`1<OVRPlugin/XrApi> OVRPlugin::_nativeXrApi
+	Nullable_1_tC438FE0466EF1565EE278C732EE7C3053C1053C4 ____nativeXrApi_14;
+	// OVRPlugin/GUID OVRPlugin::_nativeAudioOutGuid
+	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioOutGuid_15;
+	// System.Guid OVRPlugin::_cachedAudioOutGuid
+	Guid_t ____cachedAudioOutGuid_16;
+	// System.String OVRPlugin::_cachedAudioOutString
+	String_t* ____cachedAudioOutString_17;
+	// OVRPlugin/GUID OVRPlugin::_nativeAudioInGuid
+	GUID_t7B0B550D78EA6D8B265CC38E3D47A5E5DA539BB7* ____nativeAudioInGuid_18;
+	// System.Guid OVRPlugin::_cachedAudioInGuid
+	Guid_t ____cachedAudioInGuid_19;
+	// System.String OVRPlugin::_cachedAudioInString
+	String_t* ____cachedAudioInString_20;
+	// System.Boolean OVRPlugin::perfStatWarningPrinted
+	bool ___perfStatWarningPrinted_21;
+	// System.Boolean OVRPlugin::resetPerfStatWarningPrinted
+	bool ___resetPerfStatWarningPrinted_22;
+	// OVRNativeBuffer OVRPlugin::_nativeSystemDisplayFrequenciesAvailable
+	OVRNativeBuffer_tEBEDDBFD193B5EE2FE1E0C1B22AA823FB3703915* ____nativeSystemDisplayFrequenciesAvailable_23;
+	// System.Single[] OVRPlugin::_cachedSystemDisplayFrequenciesAvailable
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____cachedSystemDisplayFrequenciesAvailable_24;
+	// OVRPlugin/HandStateInternal OVRPlugin::cachedHandState
+	HandStateInternal_tADD472E69CDB0B051EFD5EAAFB69D16BA364BE37 ___cachedHandState_25;
+	// OVRPlugin/Skeleton OVRPlugin::cachedSkeleton
+	Skeleton_tB4F8C22D03DF1FD94CF2389561489C573C84FF0E ___cachedSkeleton_26;
+	// OVRPlugin/Skeleton2Internal OVRPlugin::cachedSkeleton2
+	Skeleton2Internal_tF8531C814EC7E128C6EE97A4547497AE2042E432 ___cachedSkeleton2_27;
 };
 
 // OVROverlay
@@ -17453,15 +17453,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOpenXR_SetClientVersion_m4090E8C9C4
 	{
 		// OVRP_1_71_0.ovrp_UnityOpenXR_SetClientVersion(wrapperVersion.Major, wrapperVersion.Minor, wrapperVersion.Build);
 		il2cpp_codegen_runtime_class_init_inline(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_4 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_1;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_4 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_3;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = Version_get_Major_m1F782BA72C64627627ADC2090C147CF887CE7795_inline(L_4, NULL);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_6 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_1;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_6 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_3;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Version_get_Minor_m5EEC53977DFD0A9D8F3276DA2532E8DC1644F80E_inline(L_6, NULL);
-		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_8 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_1;
+		Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* L_8 = ((OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_StaticFields*)il2cpp_codegen_static_fields_for(OVRPlugin_t0BF53CAD10A7503BB132A303469F2E0A639E696B_il2cpp_TypeInfo_var))->___wrapperVersion_3;
 		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Version_get_Build_m6B12DD50C0DD307EEE100834EAE94E9E4D7865D6_inline(L_8, NULL);
